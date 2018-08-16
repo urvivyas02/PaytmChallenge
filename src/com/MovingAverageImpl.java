@@ -99,8 +99,7 @@ public class MovingAverageImpl<E extends Number> implements IMovingAverage<E>{
 	/**
 	 * Returns the average of elements present in data structure.
 	 * Since total number of elements stored in the data structure is less than or equal to <tt>limit</tt>. 
-	 * At any point, calculating average on all elements will give average of 
-	 * elements less than or equal to specified <tt>limit</tt>/ 
+	 * At any point, calculating average on actual size will give the correct average.
 	 * If <tt>elementList</tt> is empty, it returns 0.
 	 * 
 	 * @return average of elements present in data structure

@@ -17,7 +17,7 @@ import java.util.Iterator;
  * 
  * <p> Elements in the <tt>IMovingAverage</tt> are stored in FIFO order. when (N+1)th element is added, 
  * first element is removed from the data structure.
- * <p> If number of elements in the structure are less than <tt>limit</tt>, all elements are used to calculate average.
+ * <p> If number of elements in the structure are less than <tt>limit</tt>, actual size is used to calculate average.
  * 
  * @author urvi
  * @param <E extends Number> the type of elements held in this collection are subtype of Number class
