@@ -7,7 +7,7 @@ MovingAverageImpl.java class provides efficient implementation of the interface.
 IMovingAverage  data structure will store maximum N number of elements.
 
 # Technology used
-Java, Junit for test cases.
+Java 1.8, Junit for test cases.
 
 # Instructions to run the program
 JDK 1.8 is required for running the jar.
